@@ -28,4 +28,5 @@ Through this assignment, I explored real-world data engineering tasks such as cl
 ---
 
 **Author:** Harshit Sharma
-**Role:** Data Engineering Intern, CEI Program 2026
+**Role:** Data Engineering Intern
+CEI Program 2026
