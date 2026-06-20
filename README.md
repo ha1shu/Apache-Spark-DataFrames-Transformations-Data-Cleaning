@@ -4,8 +4,6 @@ This repository demonstrates Apache Spark DataFrame transformations, data cleani
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 Apache-Spark-DataFrames-Transformations-Data-Cleaning/
 │
