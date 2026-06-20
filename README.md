@@ -1,32 +1,81 @@
-# Apache Spark DataFrames, Transformations & Data Cleaning
+# Apache Spark DataFrames Transformations & Data Cleaning
 
-This repository contains solutions for **Week 5 Assignment** of the **Celebal Technologies Data Engineering Internship (CEI Program 2026)**.
+This repository demonstrates various Apache Spark DataFrame transformations and data-cleaning techniques using a retail sales dataset. The project focuses on practical data engineering operations commonly used in ETL pipelines and analytics workflows.
 
-## Topics Covered
+## Repository Structure
 
-* DataFrame Transformations
-* Filtering and Aggregations
-* GroupBy Operations
-* Handling Null Values
-* Deduplication using `dropDuplicates()`
-* Schema Inference and Data Type Casting
-* Data Cleaning Best Practices
-* Spark SQL vs DataFrame API
-* End-to-End Data Processing Pipelines
+```text
+Apache-Spark-DataFrames-Transformations-Data-Cleaning/
+│
+├── Transformation and Theory.ipynb
+│   ├── Spark DataFrame transformation concepts
+│   ├── Theory and explanations
+│   ├── Use cases of transformations
+│   └── Examples and notes
+│
+├── Advance_transformations.ipynb
+│   ├── Data loading
+│   ├── Data cleaning
+│   ├── Feature engineering
+│   ├── Aggregations
+│   └── Advanced Spark transformations
+│
+└── README.md
+```
 
-## Tech Stack
+## Dataset
+
+The dataset contains retail sales information including:
+
+* Item Details
+* Item Weight
+* Item Visibility
+* Item Type
+* Item MRP
+* Outlet Information
+* Outlet Sales
+
+## Transformations Implemented
+
+### Basic Transformations
+
+1. Load Dataset
+2. Select Required Columns
+3. Rename Columns
+4. Remove Duplicate Records
+5. Filter Records
+6. Analyze Missing Values
+7. Handle Missing Values
+8. Validate Data Cleaning
+
+### Feature Engineering
+
+9. Create Visibility Categories
+10. Calculate Outlet Age
+
+### Aggregations
+
+11. Aggregate Sales by Outlet Type
+12. Aggregate Sales by Item Type
+
+## Technologies Used
 
 * Apache Spark
 * PySpark
 * Databricks
-* Spark SQL
+* Python
 
 ## Learning Outcomes
 
-Through this assignment, I explored real-world data engineering tasks such as cleaning raw datasets, handling missing values, performing aggregations, working with timestamps, and building efficient Spark-based data processing pipelines.
+* Data Cleaning using Spark
+* Handling Missing Values
+* Feature Engineering
+* Data Aggregation
+* Spark DataFrame Operations
+* ETL Data Processing Techniques
 
----
+## Author
 
-**Author:** Harshit Sharma
-**Role:** Data Engineering Intern
-CEI Program 2026
+**Harshit Sharma**
+
+Data Engineering Enthusiast | PySpark | Databricks | SQL | Azure
